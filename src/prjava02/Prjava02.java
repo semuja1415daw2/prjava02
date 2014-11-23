@@ -26,8 +26,8 @@ String hostname = adreça.getHostName();
 System.out.println("hostname="+hostname);
 System.out.println("Adreça IP: " + ipAddr);
 System.out.println("Nom de l'usuari: " + System.getProperty("user.name"));
-System.out.println("Conflicte típic: Codi diferent a una mateixa línia");
 System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
+System.out.println("Conflicte típic: Codi diferent a una mateixa línia");
 System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
 System.out.println("Versió OS: " + System.getProperty("os.version"));
 }
